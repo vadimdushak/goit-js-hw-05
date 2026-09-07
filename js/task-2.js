@@ -28,6 +28,6 @@ const allUsers = [
     friends: ["Goldie Gentry", "Briana Decker"]
   }
 ];
-const getUsersWithFriend = (allUsers, friendName) => allUsers.filter(user => user.friends.includes(friendName)).map(user=> user.name);
+const getUsersWithFriend = (allUsers, friendName) => allUsers.filter(user => user.friends.includes(friendName)).map(user=> user);
 
 console.log(getUsersWithFriend(allUsers, "Briana Decker")); 
